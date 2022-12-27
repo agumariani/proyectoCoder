@@ -39,7 +39,11 @@ main{
 }
 
 .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     margin-top: auto;
+    width: 100%;
     height: 80px;
     background-color: rgb(125,190,34);
 }
@@ -47,22 +51,19 @@ main{
 .footer ul{
     list-style-type: none;
     display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
 }
 
-.footer ul li{
-    align-self: center;
-    margin: 10px;
+.footer .footerList li{
+    align-self: flex-start;
+    margin: 0 5px 0 5px;
 }
 
-.social{
-    display: inline;
-    float: right;
+footer .social{
+    align-self: flex-end;
 }
 
 .social li{
-    display: inline-block;
+    padding: 0 10px;
 }
 
 .logInForm{
@@ -109,3 +110,6 @@ main{
     width: 15%;
 }
 
+h2{
+    margin: 10px;
+}
