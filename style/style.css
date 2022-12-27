@@ -89,15 +89,8 @@ footer .social{
     float: right;
 }
 
-.sideMenu{
-    float: left;
-    width: 8%;
-    height: calc(100vh - 160px);
-    border: 2px solid black;
-}
-
 .col{
-        height: 60%;
+    height: 60%;
 }
 
 .productosDestacados {
@@ -112,4 +105,23 @@ footer .social{
 
 h2{
     margin: 10px;
+}
+
+.mainProductos{
+    display: flex;
+
+}
+
+.sideMenu{
+
+    width: 8%;
+    height: calc(100vh - 160px);
+    border: 2px solid black;
+}
+
+.productos {
+    width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
 }
