@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,80 +16,80 @@ nav.navbar-expand-lg {
     display: flex;
     justify-content: space-between;
     height: 60px;
-    background-color: rgb(125,190,34);
+    background-color: rgb(125, 190, 34);
 }
 
-.menu{
+.menu {
     float: right;
     list-style-type: none;
 }
 
-.menu li{
+.menu li {
     display: inline-block;
 }
 
-.menu a img{
+.menu a img {
     display: inline-block;
 }
 
-main{
+main {
     height: calc(100vh - 160px);
     width: 100%;
 
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-top: auto;
     width: 100%;
     height: 80px;
-    background-color: rgb(125,190,34);
+    background-color: rgb(125, 190, 34);
 }
 
-.footer ul{
+.footer ul {
     list-style-type: none;
     display: flex;
 }
 
-.footer .footerList li{
+.footer .footerList li {
     align-self: flex-start;
     margin: 0 5px 0 5px;
 }
 
-footer .social{
+footer .social {
     align-self: flex-end;
 }
 
-.social li{
+.social li {
     padding: 0 10px;
 }
 
-.logInForm{
+.logInForm {
     width: 20%;
     margin: 0 auto;
 }
 
-.contactForm form{
+.contactForm form {
     width: 20%;
     margin: 0 auto;
 }
 
-.mainCarrito section{
-    text-align:start;
+.mainCarrito section {
+    text-align: start;
     border: 2px solid black;
 }
 
-.mainCarrito section div{
+.mainCarrito section div {
     display: inline-block;
 }
 
-.mainCarrito section .tercerColumna{
+.mainCarrito section .tercerColumna {
     float: right;
 }
 
-.col{
+.col {
     height: 60%;
 }
 
@@ -103,25 +103,39 @@ footer .social{
     width: 15%;
 }
 
-h2{
+h2 {
     margin: 10px;
 }
 
-.mainProductos{
+.mainProductos {
     display: flex;
 
 }
 
-.sideMenu{
-
-    width: 8%;
+.sideMenu {
+    width: 15%;
     height: calc(100vh - 160px);
     border: 2px solid black;
 }
 
 .productos {
     width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-top: 8px;
+    height: 45%;
+}
+
+.card img{
+    height: 40%;
+}
+
+section.item {
+    margin: 10px;
 }
