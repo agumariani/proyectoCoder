@@ -1,141 +1,133 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-image: url(../images/61802.jpg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/61802.jpg);
 }
 
 nav.navbar-expand-lg {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    background-color: rgb(125, 190, 34);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: rgb(125, 190, 34);
 }
 
 .menu {
-    float: right;
-    list-style-type: none;
+  float: right;
+  list-style-type: none;
 }
-
 .menu li {
-    display: inline-block;
+  display: inline-block;
 }
-
 .menu a img {
-    display: inline-block;
+  display: inline-block;
 }
 
 main {
-    height: calc(100vh - 160px);
-    width: 100%;
-
+  height: calc(100vh - 160px);
+  width: 100%;
 }
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-top: auto;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(125, 190, 34);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: auto;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(125, 190, 34);
 }
-
 .footer ul {
-    list-style-type: none;
-    display: flex;
+  list-style-type: none;
+  display: flex;
 }
-
 .footer .footerList li {
-    align-self: flex-start;
-    margin: 0 5px 0 5px;
+  align-self: flex-start;
+  margin: 0 5px 0 5px;
 }
 
 footer .social {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 .social li {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .logInForm {
-    width: 20%;
-    margin: 0 auto;
+  width: 20%;
+  margin: 0 auto;
 }
 
 .contactForm form {
-    width: 20%;
-    margin: 0 auto;
+  width: 20%;
+  margin: 0 auto;
 }
 
 .mainCarrito section {
-    text-align: start;
-    border: 2px solid black;
+  text-align: start;
+  border: 2px solid black;
 }
-
 .mainCarrito section div {
-    display: inline-block;
+  display: inline-block;
 }
-
 .mainCarrito section .tercerColumna {
-    float: right;
+  float: right;
 }
 
 .col {
-    height: 60%;
+  height: 60%;
 }
 
 .productosDestacados {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .card {
-    width: 15%;
+  width: 15%;
+  margin-top: 8px;
+  height: 45%;
+}
+.card img {
+  height: 40%;
 }
 
 h2 {
-    margin: 10px;
+  margin: 10px;
 }
 
 .mainProductos {
-    display: flex;
-
+  display: flex;
 }
 
 .sideMenu {
-    width: 15%;
-    height: calc(100vh - 160px);
-    border: 2px solid black;
+  width: 15%;
+  height: calc(100vh - 160px);
+  border: 2px solid black;
 }
 
 .productos {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 100%;
-    flex-wrap: wrap;
-}
-
-.card{
-    margin-top: 8px;
-    height: 45%;
-}
-
-.card img{
-    height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100%;
+  flex-wrap: wrap;
 }
 
 section.item {
-    margin: 10px;
+  margin: 10px;
 }
+
+.mainIndex.carousel {
+  margin-top: 8px;
+}/*# sourceMappingURL=style.css.map */
