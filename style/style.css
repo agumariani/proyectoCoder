@@ -11,123 +11,367 @@ body {
   background-image: url(../images/61802.jpg);
 }
 
-nav.navbar-expand-lg {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  height: 60px;
-  background-color: rgb(125, 190, 34);
+@media (min-width: 420px) {
+  nav.navbar-expand-lg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(125, 190, 34);
+  }
+  .menu {
+    list-style-type: none;
+  }
+  .menu li {
+    display: inline-block;
+  }
+  .menu a img {
+    display: inline-block;
+  }
+  main {
+    height: 100vh;
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: auto;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(125, 190, 34);
+  }
+  .footer ul {
+    list-style-type: none;
+    display: flex;
+  }
+  .footer .footerList li {
+    align-self: flex-start;
+    margin: 0 5px 0 5px;
+  }
+  footer .social {
+    align-self: flex-end;
+  }
+  .social li {
+    padding: 0 10px;
+  }
+  .logInForm {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .contactForm form {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .mainCarrito section {
+    text-align: start;
+    border: 2px solid black;
+  }
+  .mainCarrito section div {
+    display: inline-block;
+  }
+  .mainCarrito section .tercerColumna {
+    float: right;
+  }
+  .col {
+    height: 60%;
+  }
+  .productosDestacados {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .card {
+    display: flex;
+    width: 150px;
+    margin-top: 8px;
+    flex-direction: column;
+  }
+  .card img {
+    height: 55%;
+  }
+  h2 {
+    margin: 10px;
+  }
+  .mainProductos {
+    display: flex;
+  }
+  .sideMenu {
+    width: 15%;
+    height: calc(100vh - 160px);
+    border: 2px solid black;
+  }
+  .productos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .productos card {
+    height: 50px;
+  }
+  section.item {
+    margin: 10px;
+  }
+  .mainIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .carouselBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    width: 100%;
+    align-items: center;
+  }
+  .carouselBox img {
+    height: 100px;
+    align-self: center;
+  }
 }
-
-.menu {
-  float: right;
-  list-style-type: none;
+@media (min-width: 900px) {
+  nav.navbar-expand-lg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(125, 190, 34);
+  }
+  .menu {
+    list-style-type: none;
+  }
+  .menu li {
+    display: inline-block;
+  }
+  .menu a img {
+    display: inline-block;
+  }
+  main {
+    height: calc(100vh - 160px);
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: auto;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(125, 190, 34);
+  }
+  .footer ul {
+    list-style-type: none;
+    display: flex;
+  }
+  .footer .footerList li {
+    align-self: flex-start;
+    margin: 0 5px 0 5px;
+  }
+  footer .social {
+    align-self: flex-end;
+  }
+  .social li {
+    padding: 0 10px;
+  }
+  .logInForm {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .contactForm form {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .mainCarrito section {
+    text-align: start;
+    border: 2px solid black;
+  }
+  .mainCarrito section div {
+    display: inline-block;
+  }
+  .mainCarrito section .tercerColumna {
+    float: right;
+  }
+  .col {
+    height: 60%;
+  }
+  .productosDestacados {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .card {
+    display: flex;
+    width: 15%;
+    margin-top: 8px;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .card img {
+    height: 55%;
+  }
+  .card a {
+    margin-top: auto;
+  }
+  h2 {
+    margin: 10px;
+  }
+  .mainProductos {
+    display: flex;
+  }
+  .sideMenu {
+    width: 15%;
+    height: calc(100vh - 160px);
+    border: 2px solid black;
+  }
+  .productos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  section.item {
+    margin: 10px;
+  }
+  .mainIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .carouselBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    width: 100%;
+    align-items: center;
+  }
+  .carouselBox img {
+    height: 200px;
+    align-self: center;
+  }
 }
-.menu li {
-  display: inline-block;
-}
-.menu a img {
-  display: inline-block;
-}
-
-main {
-  height: calc(100vh - 160px);
-  width: 100%;
-}
-
-.footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-top: auto;
-  width: 100%;
-  height: 80px;
-  background-color: rgb(125, 190, 34);
-}
-.footer ul {
-  list-style-type: none;
-  display: flex;
-}
-.footer .footerList li {
-  align-self: flex-start;
-  margin: 0 5px 0 5px;
-}
-
-footer .social {
-  align-self: flex-end;
-}
-
-.social li {
-  padding: 0 10px;
-}
-
-.logInForm {
-  width: 20%;
-  margin: 0 auto;
-}
-
-.contactForm form {
-  width: 20%;
-  margin: 0 auto;
-}
-
-.mainCarrito section {
-  text-align: start;
-  border: 2px solid black;
-}
-.mainCarrito section div {
-  display: inline-block;
-}
-.mainCarrito section .tercerColumna {
-  float: right;
-}
-
-.col {
-  height: 60%;
-}
-
-.productosDestacados {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.card {
-  width: 15%;
-  margin-top: 8px;
-  height: 45%;
-}
-.card img {
-  height: 40%;
-}
-
-h2 {
-  margin: 10px;
-}
-
-.mainProductos {
-  display: flex;
-}
-
-.sideMenu {
-  width: 15%;
-  height: calc(100vh - 160px);
-  border: 2px solid black;
-}
-
-.productos {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  height: 100%;
-  flex-wrap: wrap;
-}
-
-section.item {
-  margin: 10px;
-}
-
-.mainIndex.carousel {
-  margin-top: 8px;
+@media (min-width: 1200px) {
+  nav.navbar-expand-lg {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(125, 190, 34);
+  }
+  .menu {
+    list-style-type: none;
+  }
+  .menu li {
+    display: inline-block;
+  }
+  .menu a img {
+    display: inline-block;
+  }
+  main {
+    height: calc(100vh - 160px);
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: auto;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(125, 190, 34);
+  }
+  .footer ul {
+    list-style-type: none;
+    display: flex;
+  }
+  .footer .footerList li {
+    align-self: flex-start;
+    margin: 0 5px 0 5px;
+  }
+  footer .social {
+    align-self: flex-end;
+  }
+  .social li {
+    padding: 0 10px;
+  }
+  .logInForm {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .contactForm form {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .mainCarrito section {
+    text-align: start;
+    border: 2px solid black;
+  }
+  .mainCarrito section div {
+    display: inline-block;
+  }
+  .mainCarrito section .tercerColumna {
+    float: right;
+  }
+  .col {
+    height: 60%;
+  }
+  .productosDestacados {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .card {
+    display: flex;
+    width: 15%;
+    margin-top: 8px;
+    flex-direction: column;
+  }
+  .card img {
+    height: 55%;
+  }
+  h2 {
+    margin: 10px;
+  }
+  .mainProductos {
+    display: flex;
+  }
+  .sideMenu {
+    width: 15%;
+    height: calc(100vh - 160px);
+    border: 2px solid black;
+  }
+  .productos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .productos card {
+    height: 50px;
+  }
+  section.item {
+    margin: 10px;
+  }
+  .mainIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .carouselBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    width: 100%;
+    align-items: center;
+  }
+  .carouselBox img {
+    height: 300px;
+    align-self: center;
+  }
 }/*# sourceMappingURL=style.css.map */
